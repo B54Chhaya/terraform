@@ -1,5 +1,10 @@
-variable "city" {}
+variable "city" {
+    default = "bangalore"
+
+}
+
 variable "state_name" {
+    default = "karnataka"
   
 }
 
@@ -8,5 +13,5 @@ output "city_name" {
 }
 
 output "state_name" {
-    value = "our state name is ${var.sate_name}"
+    value = "our state name is ${var.state_name}"
 }
