@@ -1,4 +1,4 @@
-variable "city" {}
+variable "city" {abc}
 
 output "city_name" {
     value = "Our city name is ${var.city}"
