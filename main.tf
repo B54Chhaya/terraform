@@ -1,5 +1,5 @@
 variable "city" {
-    default = "bangalore"
+   
 
 }
 
